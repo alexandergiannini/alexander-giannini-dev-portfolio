@@ -17,7 +17,7 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a href="/alexander-giannini-react-portfolio">
+        <a href="/alexander-giannini-dev-portfolio">
         <span role="img" aria-label="camera" onClick={() => setCurrentPage('Home')}></span> Alexander Giannini
         </a>
          
