@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/alexander-giannini-dev-portfolio/static/css/main.54a5a5e5.chunk.css",
+    "main.js": "/alexander-giannini-dev-portfolio/static/js/main.8ead007c.chunk.js",
+    "main.js.map": "/alexander-giannini-dev-portfolio/static/js/main.8ead007c.chunk.js.map",
+    "runtime-main.js": "/alexander-giannini-dev-portfolio/static/js/runtime-main.ccbe2fad.js",
+    "runtime-main.js.map": "/alexander-giannini-dev-portfolio/static/js/runtime-main.ccbe2fad.js.map",
+    "static/js/2.a053d0ba.chunk.js": "/alexander-giannini-dev-portfolio/static/js/2.a053d0ba.chunk.js",
+    "static/js/2.a053d0ba.chunk.js.map": "/alexander-giannini-dev-portfolio/static/js/2.a053d0ba.chunk.js.map",
+    "static/js/3.af874fb6.chunk.js": "/alexander-giannini-dev-portfolio/static/js/3.af874fb6.chunk.js",
+    "static/js/3.af874fb6.chunk.js.map": "/alexander-giannini-dev-portfolio/static/js/3.af874fb6.chunk.js.map",
+    "index.html": "/alexander-giannini-dev-portfolio/index.html",
+    "static/css/main.54a5a5e5.chunk.css.map": "/alexander-giannini-dev-portfolio/static/css/main.54a5a5e5.chunk.css.map",
+    "static/js/2.a053d0ba.chunk.js.LICENSE.txt": "/alexander-giannini-dev-portfolio/static/js/2.a053d0ba.chunk.js.LICENSE.txt",
+    "static/media/0.jpg": "/alexander-giannini-dev-portfolio/static/media/0.b18c130d.jpg",
+    "static/media/1.jpg": "/alexander-giannini-dev-portfolio/static/media/1.c6d04ad2.jpg",
+    "static/media/2.jpg": "/alexander-giannini-dev-portfolio/static/media/2.8aeddd0b.jpg",
+    "static/media/3.jpg": "/alexander-giannini-dev-portfolio/static/media/3.dd376ef9.jpg",
+    "static/media/4.jpg": "/alexander-giannini-dev-portfolio/static/media/4.b4929673.jpg",
+    "static/media/5.jpg": "/alexander-giannini-dev-portfolio/static/media/5.1cf92446.jpg",
+    "static/media/6.jpg": "/alexander-giannini-dev-portfolio/static/media/6.6c25167c.jpg",
+    "static/media/7.jpg": "/alexander-giannini-dev-portfolio/static/media/7.5e936457.jpg",
+    "static/media/8.jpg": "/alexander-giannini-dev-portfolio/static/media/8.f85f0710.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccbe2fad.js",
+    "static/js/2.a053d0ba.chunk.js",
+    "static/css/main.54a5a5e5.chunk.css",
+    "static/js/main.8ead007c.chunk.js"
+  ]
+}
