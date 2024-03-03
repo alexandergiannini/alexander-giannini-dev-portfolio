@@ -8,12 +8,17 @@ function ContactForm() {
           {/* <h2>Phone Number: 3108018673</h2>
           <h2>Email: alexgiannini310@gmail.com</h2> */}
           <ul>
-              <li className="li-proficiences">
-                  Phone Number: 3108018673
+              <li className="contact-information">
+              <a href="mailto: alexgiannini310@gmail.com" target="_blank">Click for Email</a>
               </li>
-              <li className="li-proficiences">
-              Email: alexgiannini310@gmail.com
+              <li className="contact-information">
+              <a href="https://github.com/alexandergiannini" target="_blank">GitHub Profile</a>
               </li>
+              <li className="contact-information">
+              <a href="https://www.linkedin.com/in/alexander-giannini-004345141/" target="_blank">LinkedIn Profile</a>
+              </li>
+              {/* <div className="column footer-link" ><a href="https://github.com/alexandergiannini" target="_blank"><i className="fab fa-github"></i></a></div>
+         <div className="column footer-link" ><a href="https://www.linkedin.com/in/alexander-giannini-004345141/" target="_blank"><i class="fab fa-linkedin"></i></a></div> */}
           </ul>
 
           {/* <a href="https://docs.google.com/document/d/1YO3B5R9KmEaGuYwkme4qocd0NvtRboxqJUOmM1KT3II/edit" target="_blank" id="resume-link">Download my resume</a>

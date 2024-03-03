@@ -6,11 +6,12 @@ function Home() {
         <section className="m-5">
           <h1 id="about">About Me</h1>
           <img src={require('../../assets/small/commercial/6.jpg').default}></img>
-          <p className="about-me-p-tag">Alexander Giannini is a recent graduate of the UCLA Extension Bootcamp. He also has a day job working as a QA Engineer at GOAT Group. He has been working in tech for the last 4 years.</p>
-          <p className="about-me-p-tag">He is currently on the lookout for any developer opportunities which may be presented to him so he can utilize his Full Stack Web Development Skills.</p>
-          <p className="about-me-p-tag">He currently resides in Los Angeles, California. He went to the University of the Pacific for undergrad.</p>
-          <p className="about-me-p-tag">In his free time he is continuing to develop his own applications, conduct practice algorithms, and apply for interviews and jobs.</p>
-          <p className="about-me-p-tag">Alexander is an avid sports fan and he loves hanging out with family, friends, and loved ones.</p>
+          <p className="about-me-p-tag">Hi there! My name is Alex Giannini!</p>
+          <p className="about-me-p-tag">I've been working in Tech for the last 7 years mostly primarily focused on QA Engineering.</p>
+          <p className="about-me-p-tag">My last job was working as a QA Engineer at Deltatre, focusing on writing automation code + manual testing for Deltatre's biggest clients such as NFL, MLS, and MLB.</p>
+          <p className="about-me-p-tag">Prior to Deltatre, I was working at GOAT Groap where I had my first QA opportunities.</p>
+          <p className="about-me-p-tag">I also attended the UCLA Extension Bootcamp where I learned Fullstack Web development skills!</p>
+          <p className="about-me-p-tag">I am also an avid tennis player and a huge basketball fan. I spend most of my time with my family and friends.</p>
         </section>
       );
   }

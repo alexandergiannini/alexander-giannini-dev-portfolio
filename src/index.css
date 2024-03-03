@@ -239,6 +239,8 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
+  position: relative;
+  display: block;
 }
 
 .modalBackdrop {
@@ -308,6 +310,29 @@ footer {
   position: relative;
   height: 300px;
   width: 520px;
+  display: block;
+  /* ////inline-block */
+}
+
+.fa-linkedin {
+  font-size: 45px;
+  position: relative;
+}
+
+.fa-github {
+  font-size: 45px;
+  position: relative; 
+  bottom: 10px; 
+  left: 0;
+} 
+
+.fa-github-portfolio {
+  font-size: 45px;
+  position: relative;
+}
+
+.fa-github-contact-page {
+  font-size: 50px;
 }
 
 .portfolio-image-application-url{
@@ -317,6 +342,7 @@ footer {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: black;
   color: white;
+  display: block;
 }
 
 .portfolio-image-application-repo{
@@ -327,6 +353,7 @@ footer {
   font-weight: bold;
   background-color: black;
   color: white;
+  display: block;
 }
 
 #resume-link {
@@ -347,6 +374,14 @@ footer {
 
 .li-proficiences {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+.contact-information {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  padding-top: 40px;
 }
 
 .contact-form-label {
@@ -358,6 +393,36 @@ footer {
   color: red;
 }
 
+@media screen and (max-width: 900px) {
+  .fa-github {
+    font-size: 25px;
+    position: relative; 
+    bottom: 10px; 
+    left: 0;
+    padding-top: 40px;
+  } 
+
+  .img-thumbnail {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .fa-github {
+    font-size: 35px;
+    position: relative; 
+    bottom: 10px; 
+    left: 0;
+    padding-top: 40px;
+  } 
+
+  /* .img-thumbnail {
+    padding-bottom: 50px;
+    height: 200px;
+  margin-bottom: 50px;
+  } */
+
+}
 
 
 
