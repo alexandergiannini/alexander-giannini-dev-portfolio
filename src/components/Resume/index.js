@@ -2,6 +2,7 @@ import React from 'react';
 //import PDF from '../Resume/Alex_Giannini_Resume_(2021).pdf'
 //import coverImage from "../../assets/cover/cover-image.jpg";
 //add an alt attribute to the img src
+import resume from "../../assets/resume/AlexanderGianniniQAResume2024.pdf"
 const resumePDF = 'https://alexandergiannini.github.io/alexander-giannini-dev-portfolio/AlexanderGianniniQAResume2024.pdf'
 function Resume() {
     const downloadFileAtUrl = (url) => {
@@ -15,6 +16,7 @@ function Resume() {
     return (
       <section className="m-5">
         <h1 id="about">Resume</h1>
+        <a href={resume} download="Resume">Download!!</a>
         <button onClick={() => {downloadFileAtUrl(resumePDF)}}>Download Resume</button>
         {/* <a href={require('src/components/Resume/Alex_Giannini_Resume_(2021).pdf')} target="_blank" id="resume-link">Download my resume</a> */}
         <h2>QA Automation Proficiencies</h2>
