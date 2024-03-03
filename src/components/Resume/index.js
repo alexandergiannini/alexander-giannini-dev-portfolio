@@ -2,7 +2,7 @@ import React from 'react';
 //import PDF from '../Resume/Alex_Giannini_Resume_(2021).pdf'
 //import coverImage from "../../assets/cover/cover-image.jpg";
 //add an alt attribute to the img src
-const resumePDF = 'http://alexandergiannini.github.io/alexander-giannini-dev-portfolio/AlexanderGianniniQAResume2024.pdf'
+const resumePDF = 'https://alexandergiannini.github.io/alexander-giannini-dev-portfolio/AlexanderGianniniQAResume2024.pdf'
 function Resume() {
     const downloadFileAtUrl = (url) => {
         const aTag = document.createElement('a');
