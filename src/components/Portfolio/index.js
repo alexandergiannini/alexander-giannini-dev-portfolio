@@ -44,9 +44,9 @@ function Portfolio(props) {
         </div>
 
         <div className="portfolio-image">
-          <a href="https://alexandergiannini.github.io/javascript-code-quiz/" target="_blank">
-          <a href="https://github.com/alexandergiannini/javascript-code-quiz" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <img src={require('../../assets/small/commercial/8.jpg').default} className="img-thumbnail mx-1">
+          <a href="https://alexandergiannini.github.io/password-generator/" target="_blank">
+          <a href="https://github.com/alexandergiannini/password-generator" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <img src={require('../../assets/small/commercial/10.jpg').default} className="img-thumbnail mx-1">
         </img>
         </a>
         {/* <a href="https://alexandergiannini.github.io/javascript-code-quiz/" target="_blank" className="portfolio-image-application-url">Website</a> */}
