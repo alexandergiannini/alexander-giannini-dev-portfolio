@@ -1,6 +1,7 @@
 import React from 'react';
 //add an alt attribute to the img src
-import resume from "../../assets/resume/AlexanderGianniniQAResume2024.pdf"
+//import resume from "../../assets/resume/AlexanderGianniniQAResume2024.pdf"
+import resume from "../../assets/resume/Alex_Giannini_QA_Resume_2024.pdf"
 //const resumePDF = 'https://alexandergiannini.github.io/alexander-giannini-dev-portfolio/AlexanderGianniniQAResume2024.pdf'
 function Resume() {
     return (
@@ -31,6 +32,9 @@ function Resume() {
             </li>
             <li className="li-proficiences">
                 Chai
+            </li>
+            <li className="li-proficiences">
+                Playwright
             </li>
             <li className="li-proficiences">
                 Docker
