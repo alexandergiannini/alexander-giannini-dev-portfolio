@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alexander-giannini-dev-portfolio/static/css/main.e8b081fa.chunk.css",
-    "main.js": "/alexander-giannini-dev-portfolio/static/js/main.dc716860.chunk.js",
-    "main.js.map": "/alexander-giannini-dev-portfolio/static/js/main.dc716860.chunk.js.map",
+    "main.js": "/alexander-giannini-dev-portfolio/static/js/main.0ac84582.chunk.js",
+    "main.js.map": "/alexander-giannini-dev-portfolio/static/js/main.0ac84582.chunk.js.map",
     "runtime-main.js": "/alexander-giannini-dev-portfolio/static/js/runtime-main.f4510d5b.js",
     "runtime-main.js.map": "/alexander-giannini-dev-portfolio/static/js/runtime-main.f4510d5b.js.map",
     "static/js/2.a053d0ba.chunk.js": "/alexander-giannini-dev-portfolio/static/js/2.a053d0ba.chunk.js",
@@ -22,12 +22,12 @@
     "static/media/6.jpg": "/alexander-giannini-dev-portfolio/static/media/6.6c25167c.jpg",
     "static/media/7.jpg": "/alexander-giannini-dev-portfolio/static/media/7.5e936457.jpg",
     "static/media/8.jpg": "/alexander-giannini-dev-portfolio/static/media/8.f85f0710.jpg",
-    "static/media/AlexanderGianniniQAResume2024.f614ee09.pdf": "/alexander-giannini-dev-portfolio/static/media/AlexanderGianniniQAResume2024.f614ee09.pdf"
+    "static/media/Alex_Giannini_QA_Resume_2024.26f5b0bf.pdf": "/alexander-giannini-dev-portfolio/static/media/Alex_Giannini_QA_Resume_2024.26f5b0bf.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.f4510d5b.js",
     "static/js/2.a053d0ba.chunk.js",
     "static/css/main.e8b081fa.chunk.css",
-    "static/js/main.dc716860.chunk.js"
+    "static/js/main.0ac84582.chunk.js"
   ]
 }
