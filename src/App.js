@@ -3,7 +3,6 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
-import Home from './components/Home'
 import Resume from './components/Resume'
 
 
@@ -27,7 +26,7 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'Home':
-      return <Home/>
+      return <About/>
 
       case 'About':
       return <About/>
@@ -61,8 +60,6 @@ function App() {
       <footer>
        <div className="content has-text-centered mt-5">
          <div className="columns mt-2 my-footer">
-         {/* <div className="column footer-link" ><a href="https://github.com/alexandergiannini" target="_blank"><i className="fab fa-github"></i></a></div>
-         <div className="column footer-link" ><a href="https://www.linkedin.com/in/alexander-giannini-004345141/" target="_blank"><i class="fab fa-linkedin"></i></a></div> */}
          </div>
 
        </div>
