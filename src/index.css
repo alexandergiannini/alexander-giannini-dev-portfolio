@@ -468,6 +468,122 @@ footer {
   align-items: start;
 }
 
+.carousel {
+  --h: 280px;            /* overridden via prop */
+  position: relative;
+  width: min(960px, 100%);
+  margin: 0 auto;
+}
+
+/* Viewport + track */
+.viewport {
+  overflow: hidden;
+  border-radius: 14px;
+  background: #0f0f10;
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+.track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  transition: transform 300ms ease;
+}
+
+/* Slides */
+.slide {
+  position: relative;
+  height: var(--h);
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto; /* image area + caption */
+}
+
+.shot {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  background: #111;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Caption */
+.caption {
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  color: #e9e9ef;
+  background: #121214;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+/* GitHub badge (top-right overlay) */
+.github-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #e9e9ef;
+  background: rgba(0,0,0,.45);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 10px;
+  width: 40px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+.github-badge:hover {
+  transform: translateY(-1px);
+  background: var(--primary);
+  border-color: rgba(255,255,255,.3);
+}
+
+/* Nav buttons */
+.nav {
+  position: absolute;
+  top: calc(var(--h) / 2 - 20px);
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.15);
+  background: rgba(0,0,0,.45);
+  color: #fff;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  line-height: 1;
+  transition: background .15s ease, transform .15s ease, border-color .15s ease;
+}
+.nav:hover { background: rgba(0,0,0,.65); transform: translateY(-1px); border-color: rgba(255,255,255,.3); }
+.nav:disabled { opacity: .4; cursor: default; transform: none; }
+.nav.prev { left: 8px; }
+.nav.next { right: 8px; }
+
+/* Dots */
+.dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 10px 0 0;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.28);
+  border: 0;
+  cursor: pointer;
+}
+.dot.active { background: #fff; }
+
 @media (max-width: 680px) {
   .skills {
     grid-template-columns: 1fr;
@@ -523,7 +639,7 @@ footer {
 }
 
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .fa-github {
     font-size: 25px;
     position: relative; 
@@ -546,7 +662,7 @@ footer {
     padding-top: 40px;
   } 
 
-}
+} */
 
 
 

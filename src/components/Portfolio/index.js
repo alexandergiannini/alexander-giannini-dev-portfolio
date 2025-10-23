@@ -1,50 +1,46 @@
 import React from 'react';
 import PhotoList from '../PhotoList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-//import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Carousel from '../Carousel/carousel';
+
+const slides = [
+    {
+    title: "OpenTug",
+    href: "https://opentug.com/",
+    github: "https://github.com/alexandergiannini",
+    img: require("../../assets/MyWork/OpenTug/OpenTugHome.jpg").default,
+  },
+  {
+    title: "Movie Hunt",
+    href: "https://alexreveles.github.io/movie-hunt-app/",
+    github: "https://github.com/alexreveles/movie-hunt-app",
+    img: require("../../assets/small/commercial/1.jpg").default,
+  },
+  {
+    title: "Workday Scheduler",
+    href: "https://alexandergiannini.github.io/workday-scheduler-05/",
+    github: "https://github.com/alexandergiannini/workday-scheduler-05",
+    img: require("../../assets/small/commercial/3.jpg").default,
+  },
+  {
+    title: "Weather Challenge",
+    href: "https://alexandergiannini.github.io/weather-challenge-06/",
+    github: "https://github.com/alexandergiannini/weather-challenge-06",
+    img: require("../../assets/small/commercial/4.jpg").default,
+  },
+  {
+    title: "Password Generator",
+    href: "https://alexandergiannini.github.io/password-generator/",
+    github: "https://github.com/alexandergiannini/password-generator",
+    img: require("../../assets/small/commercial/10.jpg").default,
+  },
+];
 
 function Portfolio(props) {
   return (
-    <section>
-      <h1>Portfolio</h1>
-      <div className="flex-row">
-
-        <div className="portfolio-image">
-        <a href="https://alexreveles.github.io/movie-hunt-app/" target="_blank">
-        <a href="https://github.com/alexreveles/movie-hunt-app" target="_blank"><i class="fa-brands fa-github fa-github-portfolio"></i></a>  
-        <img src={require('../../assets/small/commercial/1.jpg').default} className="img-thumbnail mx-1">
-        </img>
-        </a>  
-        </div>
-
-        <div className="portfolio-image">
-          <a href="https://alexandergiannini.github.io/workday-scheduler-05/" target="_blank">
-          <a href="https://github.com/alexandergiannini/workday-scheduler-05" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <img src={require('../../assets/small/commercial/3.jpg').default} className="img-thumbnail mx-1">
-        </img>
-        </a>
-        </div>
-
-        <div className="portfolio-image">
-          <a href="https://alexandergiannini.github.io/weather-challenge-06/" target="_blank" >
-          <a href="https://github.com/alexandergiannini/weather-challenge-06" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <img src={require('../../assets/small/commercial/4.jpg').default} className="img-thumbnail mx-1">
-        </img>
-        </a>
-        </div>
-
-        <div className="portfolio-image">
-          <a href="https://alexandergiannini.github.io/password-generator/" target="_blank">
-          <a href="https://github.com/alexandergiannini/password-generator" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <img src={require('../../assets/small/commercial/10.jpg').default} className="img-thumbnail mx-1">
-        </img>
-        </a>
-        </div>
-        
-        
-        
-      </div>
+        <section>
+      <h1>My Work</h1>
+      <Carousel slides={slides} height={500} />
     </section>
   );
 }
