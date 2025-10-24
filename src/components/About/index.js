@@ -1,17 +1,5 @@
 function About() {
     return (
-      // <section className="m-5">
-      //   <div class="headshot-frame">
-      //   <img id="headshot-image-jpg" src={require('../../assets/Headshot/headshot.JPG').default}></img>
-      //   </div>
-      //   <p className="about-me-p-tag">Hi there! I'm Alex Giannini.</p>
-      //     <p className="about-me-p-tag">I’ve spent the past 8 years building my career in tech, with 7 years of QA engineering and 1 year of fullstack engineering.</p>
-      //     <p className="about-me-p-tag">Currently, I’m a software engineer at OpenTug, where I work on full stack projects for their web application, making an impact across the maritime and barge industries.</p>
-      //     <p className="about-me-p-tag">Previously, I was a QA Engineer at Deltatre, where I wrote automation code and performed manual testing for major clients like the NFL, MLS, and MLB.</p>
-      //     <p className="about-me-p-tag">My first experience in tech came at GOAT Group, where I had the opportunity to dive into QA for the first time.</p>
-      //     <p className="about-me-p-tag">I also completed the UCLA Extension Bootcamp, where I developed full stack web development skills that I use in my work today.</p>
-      //     <p className="about-me-p-tag">Outside of tech, I’m an avid tennis player, a huge basketball fan, and love spending time with my family and friends.</p>
-      // </section>
       <section className="about">
   <img
     className="headshot"

@@ -53,22 +53,27 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
   font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h3 {
   font-size: 1.75rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h4 {
   font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h5 {
   font-size: 1.25rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h6 {
@@ -361,45 +366,56 @@ footer {
 }
 
 .footer-link {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-links {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-me-p-tag {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact-information {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   padding-top: 40px;
 }
 
 .contact-form-label {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .error-text {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: red;
 }
 
 .about { max-width: 850px; margin: 0 auto; }
 
+/* mobile-first: stack */
 .headshot {
-  float: left;             
-  width: 220px;          
-  height: auto;             
-  margin: 0 16px 12px 0;    
-  border-radius: 12px;      
-  object-fit: cover;
+  float: none;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto 12px;
   display: block;
 }
 
-.about .about-me-p-tag { line-height: 1.6; }
+/* paragraphs shouldn’t wrap beside a float if it appears */
+.about .about-me-p-tag { clear: both; }
+
+/* from 640px and up: float left with text wrapping */
+@media (min-width: 640px) {
+  .headshot {
+    float: left;
+    width: 220px;
+    margin: 0 16px 12px 0;
+  }
+  .about .about-me-p-tag { clear: none; }
+}
 
 .contact-list {
   list-style: none;
@@ -606,7 +622,7 @@ footer {
   background: #121214; 
   border: 1px solid rgba(255,255,255,.08);
   color: #e9e9ef;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   text-align: center;
 }
