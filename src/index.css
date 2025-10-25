@@ -95,9 +95,60 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
-  background: var(--dark);
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
 }
+.site-header h2 { margin: 0; line-height: 1; }
+
+/* Desktop nav visible ≥768px */
+.nav-desktop { display: none; }
+.nav-toggle   { display: inline-flex; align-items: center; justify-content: center;
+  font-size: 1.75rem; background: transparent; color: #fff; border: 0; padding: .5rem .6rem; cursor: pointer;
+}
+
+/* Mobile drawer base */
+.nav-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.45);
+  opacity: 0; pointer-events: none; transition: opacity .2s ease;
+  z-index: 49;
+}
+.nav-overlay.show { opacity: 1; pointer-events: auto; }
+
+.nav-drawer {
+  position: fixed; top: 0; right: 0; height: 100vh; width: 78vw; max-width: 360px;
+  background: #000; color: #fff; box-shadow: -8px 0 24px rgba(0,0,0,.35);
+  transform: translateX(100%); transition: transform .22s ease;
+  padding: 20px; overflow-y: auto; z-index: 50;
+}
+.nav-drawer.open { transform: translateX(0); }
+
+.drawer-close {
+  position: absolute; top: 8px; right: 10px;
+  background: transparent; border: 0; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer;
+}
+
+.drawer-list { list-style: none; padding: 0; margin: 32px 0 0; }
+.drawer-list li + li { margin-top: 14px; }
+.drawer-link {
+  all: unset; display: block; width: 100%;
+  cursor: pointer; font: 700 1.25rem/1.3 Roboto, sans-serif; color: #fff; padding: 8px 0;
+}
+.drawer-link:focus { outline: 2px solid #888; outline-offset: 2px; }
+
+/* Desktop breakpoint */
+@media (min-width: 800px) {
+  .nav-desktop { display: block; }
+  .nav-toggle  { display: none; }
+}
+
+.flex-row { display: flex; align-items: center; }
+.mx-2 { margin-left: .5rem; margin-right: .5rem; }
+.nav-links, .drawer-link { white-space: nowrap; }
+.nav-links:hover { opacity: .8 }
 
 header a {
   color: var(--light);
@@ -296,9 +347,9 @@ a {
 	
 }
 
-.navActive {
+/* .navActive {
   color: var(--secondary);
-}
+} */
 
 footer {
   text-align: center;
