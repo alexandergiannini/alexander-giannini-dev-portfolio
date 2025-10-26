@@ -5,7 +5,7 @@ function Resume() {
         {/* <h1 id="about">Resume</h1> */}
         <div className="skills">
   <div className="skills-col">
-    <h2>Full-stack Proficiencies</h2>
+    <h2 className="skills-col-header">Full-stack Proficiencies</h2>
     <ul className="skills-list">
       <li className="li-proficiencies">HTML</li>
       <li className="li-proficiencies">CSS</li>
@@ -25,7 +25,7 @@ function Resume() {
   </div>
 
   <div className="skills-col">
-    <h2>QA Automation Proficiencies</h2>
+    <h2 className="skills-col-header">QA Automation Proficiencies</h2>
     <ul className="skills-list">
       <li className="li-proficiencies">WebdriverIO</li>
       <li className="li-proficiencies">Cypress</li>

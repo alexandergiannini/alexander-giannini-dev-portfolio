@@ -40,7 +40,7 @@ function Portfolio(props) {
   return (
         <section>
       <h1>My Work</h1>
-      <Carousel slides={slides} height={500} />
+      <Carousel slides={slides} height={400} />
     </section>
   );
 }
